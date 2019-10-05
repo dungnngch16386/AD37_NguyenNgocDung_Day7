@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".AddNewContact">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:maxLines="1"
+        android:hint="Name"
+        android:inputType="text"
+        android:background="@drawable/button_new3"/>
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:hint="Phone number"
+        android:inputType="text"
+        android:background="@drawable/button_new3"/>
+
+    <EditText
+        android:id="@+id/etCountry"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:hint="Country"
+        android:inputType="text"
+        android:background="@drawable/button_new3"/>
+
+    <Button
+        android:id="@+id/btnAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_new2"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:text="Add"/>
+
+</LinearLayout>
